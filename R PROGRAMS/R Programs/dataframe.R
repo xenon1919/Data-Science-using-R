@@ -1,0 +1,67 @@
+vec1=c("R","S","T")
+vec2=c(1,2,3)
+vec3=c("Hey","Hello","Bye")
+df=data.frame(vec1,vec2,vec3)
+print(df)
+myTable=data.frame()
+myTable=edit(myTable)
+x=data.frame("Name"=c("A","B","C","D"),
+             "Name1"=c("X","Y","Z","M"),
+             "Name3"=c(1,2,3,4),
+             "Name4"=c(9,8,7,6))
+print(x)
+b
+b[2:4,2:4]
+b
+z=b
+b
+b[,-3]
+z
+z
+z[3,4]
+m=z[3:4,4:5]
+m
+n=matrix(c(1,2,3,4),nrow=2,ncol=2,byrow=TRUE)
+n
+o=rbind(m,n)
+o
+p=cbind(m,n)
+p
+#ab=rbind(p,m)m throws an error
+z
+m
+n
+m+n
+z
+apply(z,1,sum) #adds all elements row wise
+apply(z,2,sum) #adds all elements col wise
+z
+m-n
+m*n
+m%*%n
+m
+n
+rst=list(m,n)
+det_n=lapply(rst,det)
+det_n
+m
+n
+spy=rnorm(10)
+spy
+spyder=dnorm(10)
+spyder
+set.seed(1)
+myrand=sample(1:10,10)
+result=mean(myrand)
+result
+print(median(myrand))
+print(myrand)
+z
+print(z[c(1,3),1:2])
+z[1:5,-3]
+z
+diag(z)
+dim(z)
+length((z))
+print(list(m,n))
+
